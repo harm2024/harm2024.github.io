@@ -1,0 +1,154 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Lora", serif;
+  color: rgba(22, 22, 22);
+  /* background-color: #804444; */
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #f0f0f0;
+}
+
+.monogram {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  font-family: "Libre Baskerville", serif;
+  color: rgba(22, 22, 22);
+}
+
+.monogram span {
+  position: absolute;
+  font-size: 25vh;
+}
+
+.top-right {
+  top: -0.21em;
+  right: 0%;
+  right: -0.06em;
+}
+
+.middle-left {
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  left: -0.26em;
+}
+
+.bottom-right {
+  bottom: -0.28em;
+  right: 0%;
+  right: 0.02em;
+}
+
+.names {
+  position: fixed;
+ margin: 10px;
+ left: 5%;
+ top: 3%;
+}
+
+.names h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: -0.2em;
+  margin-bottom: 0px;
+}
+
+.names-alternative-font {
+  font-family: "Great Vibes", cursive;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+.content h1 {
+  font-family: "Lora", serif;
+  margin-bottom: 20px;
+}
+
+.links a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #000;
+  font-family: "Lora", serif;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/*
+.bg-text {
+  color: rosybrown;
+} */
+
+.container-bg-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.img-bg {
+  z-index: -2;
+  /* position: fixed; */
+
+  position: absolute;
+  bottom: -1px;
+  /* left: 0; */
+  max-height: 35vh; /* 40% da altura da viewport */
+  right: min(25%, 10vw);
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .img-bg {
+    right: min(6%, 100vw);
+  }
+  .names {
+    position: fixed;
+   margin: 10px;
+   left: 16%;
+   top: 3%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .img-bg {
+    right: min(20%, 100vw);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .img-bg {
+    right: min(20%, 100vw);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .img-bg {
+    right: min(20%, 100vw);
+  }
+}
