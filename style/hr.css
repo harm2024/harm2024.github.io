@@ -70,8 +70,6 @@ html {
   font-family: "Great Vibes", cursive;
 }
 
-
-
 .content {
   position: fixed;
   top: 50vh;
@@ -83,7 +81,7 @@ html {
 
 .content h2 {
   font-family: "Lora", serif;
-  font-size: larger;
+  font-size: medium;
   margin-bottom: 20px;
 }
 
@@ -152,13 +150,19 @@ html {
   .names {
     position: fixed;
     margin: 10px;
-    left: 16%;
+    left: 0%;
     top: 3%;
-    right: min(50%, 100vw)
+    right: min(32%, 100vw)
   }
 
   .content {
-    right: min(53%, 100vw)
+    right: min(54%, 100vw)
+  }
+
+  .content h2 {
+    font-family: "Lora", serif;
+    font-size: large;
+    margin-bottom: 20px;
   }
 }
 
