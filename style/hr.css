@@ -71,7 +71,7 @@ html {
 
 .content {
   position: fixed;
-  top: 50vh;
+  top: 45vh;
   transform: translateY(-50%);
   /* max-width: 50%; */
   padding: 10px;
