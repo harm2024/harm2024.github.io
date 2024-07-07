@@ -129,6 +129,7 @@ html {
   right: min(25%, 10vw);
 }
 
+
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {
 
@@ -152,17 +153,11 @@ html {
     margin: 10px;
     left: 0%;
     top: 3%;
-    right: min(32%, 100vw)
+    right: min(23%, 100vw)
   }
 
   .content {
-    right: min(54%, 100vw)
-  }
-
-  .content h2 {
-    font-family: "Lora", serif;
-    font-size: large;
-    margin-bottom: 20px;
+    right: min(52%, 100vw);
   }
 }
 
@@ -211,17 +206,13 @@ html {
 .modal-content {
   width: 660px;
   max-width: 80%;
-  background-color: #fefefe;
+  background-color: #fafafa;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
 }
 
-.modal-content h2 {
-  font-family: "Lora", serif;
-  font-size: medium;
-  margin-bottom: 20px;
-}
+
 
 .modal-content p, a {
   font-family: "Lora", serif;
@@ -257,6 +248,34 @@ html {
 }
 
 .minimal-button:hover {
-  background-color: black;
+  background-color: #222222;
   color: #fafafa;
 }
+
+.subtitle {
+  font-weight: bolder;
+  font-size:large;
+  border-bottom: 1px solid #222222;
+}
+
+.pix {
+  display: flex;
+  /* align-items: center; /* Alinha verticalmente ao centro */
+  justify-content: space-between; /* Espaça o texto e a imagem */
+  /*border: 1px solid black;  Adiciona uma borda preta */
+  /*padding: 20px; /* Adiciona padding ao redor do conteúdo */
+  /*max-width: 80%; /* Define a largura máxima como 80% da tela */
+  /*width: 500px; /* Largura fixa para exemplo */
+}
+
+.pix p {
+  flex: 1; /* O texto ocupará o espaço disponível */
+  margin: 0; /* Remove a margem padrão do parágrafo */
+}
+
+.pix-qr-code {
+  max-width: 100px; /* Define a largura máxima da imagem */
+  margin-left: 20px; /* Espaço entre o texto e a imagem */
+}
+
+

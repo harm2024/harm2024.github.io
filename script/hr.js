@@ -28,3 +28,25 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+var modalGift = document.getElementById("giftModal");
+
+var giftBtn = document.getElementById("giftsBtn");
+
+var giftSpan = document.getElementsByClassName("close")[1];
+
+giftBtn.onclick = function() {
+  modalGift.style.display = "block";
+}
+
+giftSpan.onclick = function() {
+  modalGift.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modalGift) {
+    modalGift.style.display = "none";
+  }
+}
+
+
