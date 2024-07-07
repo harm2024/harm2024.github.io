@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Confirmação de Presença - Jantar de Casamento</title>
+  <title>H&R | 17.08.2024</title>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/hr.css">
   <!-- import font Great Vibes from google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -19,7 +21,7 @@
       <span class="middle-left">&</span>
       <span class="bottom-right">R</span>
     </div>
-    <!-- add ./img/MG_9174_24-p-2.jpg -->
+
     <div class="container-bg-img">
       <img src="./img/MG_9174_24-p-3-date.jpg" alt="Imagem Centralizada" class="img-bg">
     </div>
@@ -30,24 +32,38 @@
     <h1 class="names-alternative-font">e</h1>
     <h1>ROMILDO</h1>
   </div>
-  <!-- <div class="invite-response">
-    <h1>Confirmação de Presença</h1>
-    <p>Olá, convidado(a)!</p>
-    <p>Estamos muito felizes em convidá-lo(a) para o nosso jantar de casamento.</p>
-    <p>Por favor, confirme sua presença clicando no botão abaixo.</p>
-    <button onclick="confirmarPresenca()">Confirmar Presença</button>
-  </div> -->
-  <!-- <div class="content">
-    <h1>Hanan & Romildo</h1>
-    <p>Data: 17/08/2024, 20h</p>
-    <p>Local: Churrascaria Premium, R. Quintino Bocaiúva, 963</p>
-    <p>Bebidas não inclusas</p>
-    <div class="links">
-      <a href="#" onclick="confirmarPresenca()">Confirmar Presença</a>
-      <a href="mailto:contato@exemplo.com">Entrar em Contato</a>
+
+  <div>
+    <div class="content confirm-invite links">
+      <div class="icon-text">
+        <span class="material-symbols-outlined">
+          check_circle
+        </span>
+        <h2 class="title" id="confirmBtn">Confirmar Presença</h2>
+      </div>
+      <div class="icon-text">
+        <span class="material-symbols-outlined">
+          featured_seasonal_and_gifts
+        </span>
+        <h2 class="title" id="giftsBtn">Presentes</h2>
+      </div>
     </div>
-  </div> -->
-  <script src="./script/hr.js"></script>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Confirmar Presença</h1>
+      <p>Olá, convidado(a)!</p>
+      <p>Estamos muito felizes em convidá-lo(a) para o nosso jantar de casamento.</p>
+      <a href="https://wa.me/5545988228959?text=Ol%C3%A1%20Hanan!%20Gostaria%20de%20confirmar%20a%20minha%20presen%C3%A7a%20no%20jantar%20de%2017%2F08%2F2024.%20Estarei%20acompanhado(a)%20de%3A%20%5Bcoloque%20aqui%20o%20nome%20dos%20familiares%20que%20ir%C3%A3o%20junto%5D"
+        target="_blank" class="minimal-button">Convidados de Hanan</a>
+      <a href="https://wa.me/5545999184052?text=Ol%C3%A1%20Romildo!%20Gostaria%20de%20confirmar%20a%20minha%20presen%C3%A7a%20no%20jantar%20de%2017%2F08%2F2024.%20Estarei%20acompanhado(a)%20de%3A%20%5Bcoloque%20aqui%20o%20nome%20dos%20familiares%20que%20ir%C3%A3o%20junto%5D"
+        target="_blank" class="minimal-button">Convidados de Romildo</a>
+    </div>
+  </div>
+
+    <script src="./script/hr.js"></script>
 </body>
 
 </html>
