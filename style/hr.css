@@ -88,6 +88,13 @@ html {
   font-family: "Lora", serif;
   font-size: 1.2em;
   margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.title-link {
+  font-family: "Lora", serif;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 .material-symbols-outlined {
@@ -338,3 +345,27 @@ a {
   max-width: 100px; /* Define a largura máxima da imagem */
   margin-left: 20px; /* Espaço entre o texto e a imagem */
 }
+
+
+.container-presentes {
+  padding: 10px;
+}
+
+
+.title-presentes {
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list-gift{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 1em;
+}
+
+
